@@ -1,0 +1,46 @@
+
+/* .appMain {
+  display :flex;
+  justify-content: center;
+} */
+
+
+.appMain .formWrapper input {
+  padding : 10px;
+  font-size: 16px;
+  border : 2px solid white; 
+  width: 165px;
+}
+
+.appMain .formWrapper button {
+  padding : 16px;
+  font-size: 16px;
+  margin : 10px;
+}
+
+.appMain .formWrapper button:hover {
+  background-color: #003399;
+  border : 2px solid #003399;
+  cursor : pointer;
+}
+
+.appMain .listWrapper ul {
+  padding : 0px;
+
+}
+
+.appMain .listWrapper li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding : 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+
+  transition: background-color 0.2s ease-out;
+}
+
+.appMain .listWrapper li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
